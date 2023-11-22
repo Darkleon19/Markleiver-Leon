@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/> 
+    <link rel="stylesheet" href="style.css">
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <!--SECCION  INICIO--> 
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>Markleiver L</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado">INICIO</a></li>
+                            <li><a href="#sobremi">SOBRE MI</a></li>
+                            <li><a href="#portafolio">PORTAFOLIO</a></li>
+                            <li><a href="#contacto">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    <!--ICONOS DEL MENU-->
+                    <div id="iconos-nav">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <!---iconos de las redes sociales--->
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenidos">BIENVENIDOS</p>
+                <h2>Hola Mi nombre es<span> Markleiver Leon </span>,y soy estudiante de analisis de sistema Sean bienvenidos a</h2>
+                <p class="Descripcion">Mi Primera Pagina Web</p>
+                <a href="#portafolio">ir a portafolio</a>
+            </div>
+        </div>
+    </section>
+    <!--seccion sobre mi-->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/fotopaelportafolio.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class=""titulo-seccion>SOBRE MI</p>
+            <h2>Hola, soy <span> Markleiver Leon</span></h2>
+            <h3>Soy Estudiante De analisis de sistema </h3>
+            <p>tengo 19 años, me gusta el futbol, la tecnologia, los juegos</p>
+            <a href="#">Regresar al menu</a>
+        </div>
+    </section>
+    <!-- SECCION SERVICIOS-->
+    <section id="servicios">
+        <h3 class="titulo-seccion"> MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicios">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de sitios web </h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>En aprendizaje</li>
+                    <li>Programador</li>
+                    
+                </ul>
+                <p>Servicios del futuro no muy lejano, ya que por ahora soy solo un estudiante mas.
+                </p>
+            </div>
+            <div class="servicios">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de sitios web </h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>En aprendizaje</li>
+                    <li>Programador</li>
+                    
+                </ul>
+                <p>Servicios del futuro no muy lejano, ya que por ahora soy solo un estudiante mas.
+                </p>
+            </div>
+            <div class="servicios">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de sitios web </h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>En aprendizaje</li>
+                    <li>Programador</li>
+                    
+                </ul>
+                <p>Servicios del futuro no muy lejano, ya que por ahora soy solo un estudiante mas.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION PORTAFOLIO-->
+    <section id="portafolio">
+        <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+        <div class="filas">
+            <div class="proyectos">
+                <div class="overlay"></div>
+                <img src="" alt="">
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>Diseño web</p>
+                </div>
+            </div>
+            <div class="proyectos">
+                <div class="overlay"></div>
+                <img src="" alt="">
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>Diseño web</p>
+                </div>
+            </div>
+            <div class="proyectos">
+                <div class="overlay"></div>
+                <img src="" alt="">
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>Diseño web</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SECCION CONTACTO-->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Si tienen dudas me pueden escribir por aqui</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text"placeholder="Nombre completo" class="input-mitad">
+                    <input type="text"placeholder="Direccion de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="id" id="" cols="30" rows="10" placeholder="Tu mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar mensajes" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>
